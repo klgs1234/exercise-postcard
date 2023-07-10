@@ -5,6 +5,9 @@ body {
 	border: 1px dashed red;
 	min-height: 10px;
 }
+p {
+	color: blue;
+}
 .postcard {
 	background: white;
 	width: 400px;
@@ -38,11 +41,19 @@ input {
 }
 .body-left p {
 	font-size: large;
+.body-left,
+.body-right {
+	padding: 10%;
+}
+input {
+	border: none;
+	border-bottom: gray;
 }
 .postcard-footer {
 	text-align: center;
 }
-button {
 	background-color: gray;
 	padding: 5px;
+	background-color: darkgray;
+	padding: 10px;
 }
